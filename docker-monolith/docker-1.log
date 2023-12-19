@@ -1,0 +1,4 @@
+docker images
+REPOSITORY                                         TAG         IMAGE ID       CREATED          SIZE
+skorospelovas/ubuntu-tmp-file                      latest      19e9c2a27d2e   13 seconds ago   63.2MB
+
