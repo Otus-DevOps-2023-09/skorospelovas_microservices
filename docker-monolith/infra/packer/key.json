@@ -1,0 +1,7 @@
+{
+    "id": "*****************",
+    "service_account_id": "******************",
+    "created_at": "2023-11-08T06:36:22.730826579Z",
+    "key_algorithm": "RSA_2048",
+    "public_key": "-----BEGIN PUBLIC KEY-----\\n-----END PUBLIC KEY-----\n",
+    "private_key": "PLEASE DO NOT REMOVE THIS LINE! Yandex.Cloud SA Key ID \n-----BEGIN PRIVATE KEY-----\\n-----END PRIVATE KEY-----\n"
