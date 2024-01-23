@@ -1,6 +1,14 @@
 # skorospelovas_microservices
 skorospelovas microservices repository
 
+ДЗ №4 Сетевое взаимодействие Docker контейнеров. Docker Compose. Тестирование образов
+
+Для переопределения стандартного имени используется команда
+```
+docker-compose -p "PROJECT_NAME" up -d
+```
+
+
 ДЗ №1  Docker контейнеры. Docker под капотом
 1. Подготовлен файл Dockerfile и создан образ reddit
 2. Создан инстанс в yc

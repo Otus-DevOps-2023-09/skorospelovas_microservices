@@ -11,3 +11,4 @@ variables.json
 .molecule
 .cache
 .pytest_cache
+.env
