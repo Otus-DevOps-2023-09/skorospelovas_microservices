@@ -1,0 +1,17 @@
+{
+    "builders": [
+    {
+    "type": "yandex",
+    "service_account_key_file": "/home/alex/otus/key.json",
+    "zone":      "ru-central1-a",
+    "folder_id": "b1gruh9dp3k0l66ao9fc",
+    "source_image_family": "ubuntu-2204-lts",
+    "image_name": "kubernetes-base-{{timestamp}}",
+    "image_family": "kubernetes-base",
+    "subnet_id": "e9bl8c4spc5hd9p935dt",
+    "use_ipv4_nat":  true,
+    "ssh_username": "ubuntu",
+    "platform_id": "standard-v1"
+    }
+    ]
+    }
