@@ -13,7 +13,7 @@ services:
     build: ../src/ui
     image: ${USERNAME}/ui:${VERSION}
     environment:
-      - ZIPKIN_ENABLED=%{ZIPKIN_ENABLED}
+      - ZIPKIN_ENABLED=${ZIPKIN_ENABLED}
     ports:
       - ${UI_PORT}:9292/tcp
     networks:
@@ -27,7 +27,7 @@ services:
     build: ../src/post-py
     image: ${USERNAME}/post:${VERSION}
     environment:
-      - ZIPKIN_ENABLED=%{ZIPKIN_ENABLED}
+      - ZIPKIN_ENABLED=${ZIPKIN_ENABLED}
     networks:
       - back_net
       - front_net
@@ -40,7 +40,7 @@ services:
     build: ../src/comment
     image: ${USERNAME}/comment:${VERSION}
     environment:
-      - ZIPKIN_ENABLED=%{ZIPKIN_ENABLED}
+      - ZIPKIN_ENABLED=${ZIPKIN_ENABLED}
     networks:
       - back_net
       - front_net
