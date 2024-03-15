@@ -13,3 +13,4 @@ variables.json
 .pytest_cache
 .env
 kubernetes/ansible/ROLES_PATH/
+Gitlab_ci/
